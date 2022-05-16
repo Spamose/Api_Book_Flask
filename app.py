@@ -233,7 +233,7 @@ def add_cateorie():
 def update_categorie(id):
 
         data = request.get_json()
-    #try:
+    try:
 
         categorie_to_update = Categorie.get_by_id(id)
         if categorie_to_update is None:
@@ -246,7 +246,7 @@ def update_categorie(id):
         categorie_data = serializer.dump(categorie_to_update)
         return jsonify({"success": "True", "message": "Modification effectuer a succes"}, categorie_data), 200
 
-    #except:
+    except:
         #abort(400)
 
 
