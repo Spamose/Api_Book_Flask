@@ -273,7 +273,7 @@ Nous retournons l'ID du nouveau livre créé, le livre créé, la liste des livr
     "dateSortie":"1997-01-01",
     "categorie_id":1
     
-}
+    }
 
     [  
         {
