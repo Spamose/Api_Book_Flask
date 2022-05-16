@@ -10,7 +10,7 @@ app = Flask(__name__)
 
 
 # Config BDD
-app.config["SQLALCHEMY_DATABASE_URI"] ='postgresql://postgres:Watibblackm17@localhost:5432/livre'
+app.config["SQLALCHEMY_DATABASE_URI"] ='postgresql://postgres:****@localhost:5432/livre'
 app.config["SQLALCHEMY_TRACK_MODIFICATIONS"]= False
 
 db = SQLAlchemy(app)
